@@ -25,14 +25,14 @@
 
 //object creation with object literal
 
-var computer={
-	name:"Hewllet Packard",
-	model:"840 g2",
-	displaySize:14,
-	specs:{
-		processor:"core i5 5th gen",
-		RAM:"4 gb",
-		SSD:"128 gb"
-	}
-};
-console.log( computer.name);
+// var computer={
+// 	name:"Hewllet Packard",
+// 	model:"840 g2",
+// 	displaySize:14,
+// 	specs:{
+// 		processor:"core i5 5th gen",
+// 		RAM:"4 gb",
+// 		SSD:"128 gb"
+// 	}
+// };
+// console.log( computer.name);
