@@ -1,10 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>hello</title>
-	<script src="javascript.js"></script>
+    <title>Call back</title>
 </head>
 <body>
+    
+     <ul id="studentData">
+
+    </ul>
+
+
+
+<script>
+
+// Suppose Temporary Database object
+
+// students = [
+// 		{ name:"Awais", age:27, address:"JT"},
+// 		{ name:"Ali"  ,age:23, address:"DHA"}
+// 	]
+
+
+// function postStudent(student)
+// {
+//         students.push(student)
+//         getStudent()
+//         students.pop();
+// }
+
+
+
+// function getStudent()
+// {
+
+
+//             let studentData = ""
+//             students.forEach(function(student){
+//                 studentData+=`<li>${student.name} , ${student.age} and ${student.address} </li>`   
+//             })
+
+//             document.getElementById('studentData').innerHTML = studentData
+
+
+// }
+// function popStudent(){
+// 	setTimeout(function(){
+
+// 		students.pop();
+// 	},1000);
+	
+// }
+
+// let studentData = {name:"salman", age:20, address:"MK"}
+// postStudent(studentData)  
+
+
+
+var a=function pny(){
+	return "this is function";
+}
+console.log(a);
+
+
+
+
+
+     </script> 
+
+   <!--  <script>
+
+        function pny()
+        {
+
+            return new Promise(function(resolve,reject)
+            {
+                const error = false
+                if(!error)
+                {
+                    console.log("this is promise successfully resolveda")
+                    resolve()
+                }
+                else
+                {
+                    console.log("this is promise rejected")
+                    reject()
+                }
+
+            })
+        }
+
+        pny().then(function(){
+            console.log("Thank you so much for returning my cash")
+        }).catch(function(){
+            console.log("Shut up !!!!!! you break my promise..... very bad")
+        })
+
+
+
+
+
+    </script> -->
 
 </body>
 </html>
